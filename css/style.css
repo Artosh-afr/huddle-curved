@@ -291,9 +291,12 @@ main{
 
 
 .flowing-convo{
-    display: flex;
-    width:90%;
-    margin: 15rem auto;
+      margin: 15rem auto;
+      width:100%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
     
 }   
                 .flowing-convo .head-paragraph-container {
