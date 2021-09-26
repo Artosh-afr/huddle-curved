@@ -537,8 +537,8 @@ main{
                         
                         }
                                 .newsletter input[type="email"]:focus{
-                                    outline:2px solid var(--Light-Red);
-                                    
+                                    border:2px solid var(--Light-Red);
+                                    outline: none;
                                 }
 
                         .newsletter input[type="submit"]{
