@@ -1,0 +1,150 @@
+@media (max-width:1200px){
+
+ 
+    .newsletter input[type="submit"]{
+        margin-left:0px;
+    }
+
+}
+
+
+
+
+@media (max-width:900px){
+
+
+   
+
+
+    .head-container > p{
+        width:100%;
+    }
+
+
+
+
+    div.stat-container{
+    flex-direction: column;
+    
+    }
+
+
+
+    .grow-togehter, .flowing-convo, .your-users{
+        flex-direction: column;
+    }
+
+
+            .head-paragraph-container{
+            order:2;
+            padding:0 !important;
+            text-align: center;
+            margin: 40px auto !important;
+            width:70% !important;
+            }
+
+            .head-paragraph-container p{
+                margin: auto !important;
+                width:100% !important;
+
+            }
+
+            .main-images{
+                order:1;
+                margin: auto !important;
+                max-width:80% !important;
+            }
+
+            .get-started > .btn{
+                width: 90%;
+            }
+
+
+    .footer-content-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 3rem;
+        
+
+    }
+            .newsletter{
+                order:1;
+                width: 100% !important;
+                margin-bottom: 7rem;
+                margin-top: 10rem;
+                
+            }
+
+            .newsletter input[type="email"]{
+                width: 100%;
+            }
+
+                    .newsletter input[type="submit"]{
+                        display: block;
+                        margin:20px 0 0 auto;
+                        width:50%;
+                     
+                    }
+                           
+
+
+            .contact-info{
+                order:2;
+                max-width: 100%;
+            }
+            
+
+
+
+
+}
+
+
+
+
+
+
+
+@media (max-width:600px){
+
+    .my-name{
+        display: none;
+    }
+
+    .head-container > h1{
+        font-size: 2rem;
+    }
+    .head-container .btn {
+        width:80%;
+        font-size: 1rem;
+    }
+    
+    .social-container{
+        margin-bottom: 4rem;
+    }
+    
+    
+}
+
+
+
+
+@media (max-width:500px){
+
+    :root{
+        font-size: 14px;
+    }
+      
+  
+
+}
+
+
+
+
+
+
+
+
+

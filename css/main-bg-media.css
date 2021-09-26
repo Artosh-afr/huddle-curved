@@ -1,0 +1,123 @@
+/* THIS IS FIXING THE BACKGROUNS WHEN THE SCREEN SIZE CHANGES */
+
+
+
+
+@media (max-width:1200px){
+
+    .your-users::after{
+        
+        bottom:-19vw;
+    }
+
+}
+
+
+
+
+@media (max-width:900px){
+
+
+    .grow-togehter::before{
+        content: "";
+        position: absolute;
+        background: url("../images/bg-section-top-mobile-1.svg") no-repeat;
+        background-size: 100%;
+        height:250px;
+        width:100%;
+        top:-27vw;
+        z-index: -1;
+    }
+
+    .grow-togehter::after{
+        content: "";
+        position: absolute;
+        background: url("../images/bg-section-bottom-mobile-1.svg") no-repeat;
+        background-size: 100%;
+        height:150px;
+        width:100%;
+        bottom:-140px;
+        z-index: -1;
+        
+    }
+
+    .your-users::before{
+        content: "";
+        position: absolute;
+        background: url("../images/bg-section-top-mobile-2.svg") no-repeat;
+        background-size:cover;
+        height:185px;
+        width:100%;
+        top:-20.5vw;
+        z-index: -1;
+    }
+
+    .your-users::after{
+        content: "";
+        position: absolute;
+        background: url("../images/bg-section-bottom-mobile-2.svg") no-repeat;
+        background-size: 100%;
+        height:250px;
+        width:100%;
+        bottom:-240px;
+        z-index: -1; 
+    }
+    
+
+
+
+    .footer-content-container::before{
+        content:"";
+        position: absolute;
+        width: 100%;
+        height:150px;
+        left:0;
+        background-image: url("../images/bg-footer-top-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        top:-10.5vw;
+        z-index: -1;
+    }
+    
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px){
+
+    
+      
+    .grow-togehter::before{
+        background-size: contain;
+        top:-28vw;
+    }
+    .your-users::before{
+        background-size:cover;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/* How is this even working? */
